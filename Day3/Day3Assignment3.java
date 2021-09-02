@@ -12,7 +12,7 @@ public class Day3Assignment3{
       String c = myObj.next();
       char character = c.charAt(0);
 
-      File file = new File(".\\testFiles\\test_file.txt");
+      File file = new File(".\test_file.txt");
       FileReader fr = new FileReader(file);
       
       BufferedReader br = new BufferedReader(fr);
