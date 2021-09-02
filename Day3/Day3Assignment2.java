@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class Day3Assignment2{
    public static void main(String args[]){
-        String filePath = "./testFiles/test_file.txt";
+        String filePath = "./test_file.txt";
         String appendText = "This will be appended.";
         File file = new File(filePath);
         FileWriter fr = null;
